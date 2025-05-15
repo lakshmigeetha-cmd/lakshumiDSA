@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter the first angle value");
+        int angle1=scan.nextInt();
+        System.out.println("enter the  second angle value");
+        int angle2=scan.nextInt();
+        System.out.println("enter the thrird angle value");
+        int angle3=scan.nextInt();
+        int sum=angle1+angle2+angle3;
+        if(sum==180){
+            System.out.println("triangle can be formed");
+        }else{
+        System.out.println("triangle cannot be formed");
+        }
+    }
+}
